@@ -1,0 +1,62 @@
+info: ::1 - - [08/Aug/2022:02:42:24 +0000] "POST /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 200 349 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:02:45:01 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 200 809 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:02:45:32 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 200 809 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:40:32 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 822 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:42:20 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 822 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:42:26 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 822 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:45:13 +0000] "GET /api/v1/cart HTTP/1.1" 400 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:45:46 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 625 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:46:01 +0000] "POST /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 201 809 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:46:11 +0000] "POST /api/v1/cart/62158a4505253301a4fda5de HTTP/1.1" 201 809 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:46:18 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 809 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:46:21 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 809 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:07:46:54 +0000] "GET /api/v1/cart HTTP/1.1" 200 822 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:20:23 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 990 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:20:38 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 201 1174 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:21:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:22:00 +0000] "PUT /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 200 1187 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:22:24 +0000] "PUT /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 200 1187 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:23:14 +0000] "PUT /api/v1/cart/del/621588d505253301a4fda5cf HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:23:51 +0000] "PUT /api/v1/cart/del/621588d505253301a4fda5cf HTTP/1.1" 200 1187 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:25:23 +0000] "PUT /api/v1/cart/del/621588d505253301a4fda5cf HTTP/1.1" 200 1187 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:26:09 +0000] "PUT /api/v1/cart/del/621588d505253301a4fda5cf HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:26:15 +0000] "POST /api/v1/cart/del/621588d505253301a4fda5cf HTTP/1.1" 200 1187 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:27:16 +0000] "POST /api/v1/cart/del/621588d505253301a4fda5cf HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:27:23 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 201 1174 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:29:44 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 201 1174 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:29:53 +0000] "PUT /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 200 73 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:30:39 +0000] "PUT /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:31:35 +0000] "PUT /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:32:02 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 201 1174 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Aug/2022:08:32:28 +0000] "PUT /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
