@@ -1,4 +1,3 @@
-// import User from "../models/user.model";
 import Book from '../models/book.model';
 import Cart from '../models/cart.model';
 
@@ -20,7 +19,7 @@ export const cart = async (authEmail, params_book_id) => {
       'productId': bookCheck._id,
 
     }
-    console.log("book checked sucessfull")
+    // console.log("book checked sucessfull")
     // return bookCheck;
     const cartCheck = await Cart.findOne({ userId: authEmail })
 
