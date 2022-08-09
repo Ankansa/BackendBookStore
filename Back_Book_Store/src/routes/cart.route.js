@@ -20,7 +20,10 @@ router.put('/:_id',userAuth,cartcontroller.removeBook);
 
 // For change the isPurchased value #################################333
 
-router.put('',userAuth,cartcontroller.purchasedValue);
+router.put('/purchased/true',userAuth,cartcontroller.purchasedValueTrue);
 
+// For change the isPurchased value false #################################333
+
+router.put('/purchased/false',userAuth,cartcontroller.purchasedValueFalse);
 
 export default router;

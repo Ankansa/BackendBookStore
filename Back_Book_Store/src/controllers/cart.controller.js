@@ -56,11 +56,29 @@ export const cart = async (req, res, next) => {
     }
   };
 
-  // For change the isPurchased value #################################333
+  // For change the isPurchased value true #################################333
 
-  export const purchasedValue= async(req, res, next) =>{
+  export const purchasedValueTrue= async(req, res, next) =>{
     try {
-      const data = await Cartservice.purchasedValue(req.body.Email);
+      const data = await Cartservice.purchasedValueTrue(req.body.Email);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: "Book deleted sucessfully"
+      });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
+    }
+  }
+
+  // For change the isPurchased value false #################################333
+
+  export const purchasedValueFalse= async(req, res, next) =>{
+    try {
+      const data = await Cartservice.purchasedValueFalse(req.body.Email);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,

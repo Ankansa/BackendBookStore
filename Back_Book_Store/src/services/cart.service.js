@@ -116,8 +116,20 @@ export const removeBook = async (authEmail, params_book_id) => {
 
 // For change the isPurchased value to true #################################333
 
-export const purchasedValue= async(authEmail)=>{
+export const purchasedValueTrue= async(authEmail)=>{
   const value= Cart.findOneAndUpdate({userId:authEmail},{isPurchased:true},{new:true})
+  if(value){
+    return value
+  }else{
+    throw new Error("User don't have any cart")
+  }
+
+}
+
+// For change the isPurchased value to false #################################333
+
+export const purchasedValueFalse= async(authEmail)=>{
+  const value= Cart.findOneAndUpdate({userId:authEmail},{isPurchased:false},{new:true})
   if(value){
     return value
   }else{
