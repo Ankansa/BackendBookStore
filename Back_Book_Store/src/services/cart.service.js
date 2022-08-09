@@ -113,3 +113,15 @@ export const removeBook = async (authEmail, params_book_id) => {
     throw new Error("User cart is not exist")
   }
 }
+
+// For change the isPurchased value to true #################################333
+
+export const purchasedValue= async(authEmail)=>{
+  const value= Cart.findOneAndUpdate({userId:authEmail},{isPurchased:true},{new:true})
+  if(value){
+    return value
+  }else{
+    throw new Error("User don't have any cart")
+  }
+
+}

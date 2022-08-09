@@ -18,6 +18,9 @@ router.get('',userAuth,cartcontroller.CartBooks);
 
 router.put('/:_id',userAuth,cartcontroller.removeBook);
 
+// For change the isPurchased value #################################333
+
+router.put('',userAuth,cartcontroller.purchasedValue);
 
 
 export default router;
