@@ -91,3 +91,14 @@ export const removeBook = async (authEmail, params_book_id) => {
       throw new Error("User wishlist is not exist")
     }
   }
+
+  // get wishlist books details from user wishlist ###############
+
+export const WishlistBooks = async (authEmail) => {
+    const getBooks = await Wishlist.findOne({ userId: authEmail })
+    if (getBooks) {
+      return getBooks;
+    } else {
+      throw new Error("User not have any wishlist")
+    }
+  }

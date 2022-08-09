@@ -36,3 +36,21 @@ export const wishlist = async (req, res, next) => {
       });
     }
   };
+
+  // get wishlist book details from user wishlist ###############
+
+  export const WishlistBooks = async (req, res, next) => {
+    try {
+      const data = await Wishlistservice.WishlistBooks(req.body.Email);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: "Wishlist details fatched sucessfully"
+      });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
+    }
+  };
