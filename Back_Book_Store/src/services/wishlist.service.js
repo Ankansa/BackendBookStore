@@ -59,3 +59,35 @@ export const addwishlist= async(authMail,param_book_id)=>{
   }
 
 }
+
+// Remove book details from wishlist ###############
+
+export const removeBook = async (authEmail, params_book_id) => {
+    const wishlistCheck = await Wishlist.findOne({ userId: authEmail })
+    if (wishlistCheck) {
+    //   console.log("wishlist checked sucessfull")
+      // return("DONE done DONE")
+      let found = false
+      wishlistCheck.books.forEach(element => {
+        if (element.productId == params_book_id) {
+          let indexvalue = wishlistCheck.books.indexOf(element)
+          wishlistCheck.books.splice(indexvalue, 1)
+          found = true
+          console.log("Book deleted sucessfully")
+        }
+      });
+      if (found == false) {
+        throw new Error("Book is not exist on wishlist")
+      }
+  
+      const update_view_wishlist = Wishlist.findOneAndUpdate({ userId: authEmail }, { books: wishlistCheck.books }, { new: true })
+      return update_view_wishlist
+  
+  
+      // ========================Finish=========================================
+  
+    } else {
+      console.log("User wishlist is not exist")
+      throw new Error("User wishlist is not exist")
+    }
+  }

@@ -8,5 +8,9 @@ const router = express.Router();
 
 router.post('/:_id',userAuth,wishlistcontroller.wishlist);
 
+// Remove book from cart ###############
+
+router.put('/:_id',userAuth,wishlistcontroller.removeBook);
+
 
 export default router;

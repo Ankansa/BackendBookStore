@@ -121,3 +121,30 @@ error:
       method - POST 
       IP - ::1
      {"timestamp":"2022-08-09T19:29:11.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:31:34.236Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:31:36.919Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:37:08.488Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:37:11.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:37:30.926Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:37:33.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:37:57.919Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:38:06.148Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:38:08.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:38:37.548Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:38:40.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:39:10.480Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:39:12.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:39:21.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:39:29.113Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:39:31.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:39:50.255Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:39:52.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T19:40:34.077Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T19:40:36.698Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/6215178d05253301a4fda5c4 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-08-09T19:41:59.542Z"}

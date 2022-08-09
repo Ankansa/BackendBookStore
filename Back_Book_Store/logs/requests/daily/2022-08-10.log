@@ -38,3 +38,9 @@ info: ::1 - - [09/Aug/2022:19:00:39 +0000] "PUT /api/v1/cart/purchased/false HTT
 
 info: ::1 - - [09/Aug/2022:19:29:11 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [09/Aug/2022:19:31:54 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 201 287 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:32:14 +0000] "POST /api/v1/wishlist/6215888305253301a4fda5cd HTTP/1.1" 201 435 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:32:38 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 201 583 "-" "PostmanRuntime/7.29.2"
+
