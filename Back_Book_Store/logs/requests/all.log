@@ -753,3 +753,131 @@ info: ::1 - - [09/Aug/2022:19:55:00 +0000] "GET /api/v1/wishlist HTTP/1.1" 400 6
 
 info: ::1 - - [09/Aug/2022:19:55:55 +0000] "GET /api/v1/wishlist HTTP/1.1" 200 442 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [09/Aug/2022:20:32:26 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:32:37 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:32:38 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:32:40 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:33:58 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:34:00 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:36:24 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:37:00 +0000] "GET /api/v1/cart/purchased/false HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:37:27 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 708 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:37:35 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:39:36 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:39:39 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:39:41 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:39:43 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:40:41 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:40:44 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:41:11 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:41:12 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:42:38 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:43:15 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:46:30 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 400 95 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:48:34 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 999 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:48:37 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 999 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:20:48:39 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 999 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:02:46:12 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 999 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:02:46:21 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 713 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:18:53:47 +0000] "PUT /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:18:54:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:00:30 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:01:15 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:01:27 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:05:15 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 84 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:07:17 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:09:34 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:11:35 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 136 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:13:44 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 136 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\controllers\/customer_details.controller.js:14:16)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at customerDetails (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\controllers\/customer_details.controller.js:5:29)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at customerDetailsValidator (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\validators\/customerDetails.validator.js:19:9)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3) {"date":"Thu Aug 11 2022 00:45:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":967614},"process":{"argv":["node","C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\index.js"],"cwd":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18463824,"external":32249605,"heapTotal":82337792,"heapUsed":51103328,"rss":118259712},"pid":8516,"uid":null,"version":"v16.16.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js:14:16)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at customerDetails (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js:5:29)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at customerDetailsValidator (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\validators\\/customerDetails.validator.js:19:9)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js:114:3)","trace":[{"column":16,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js","function":"_callee$","line":14,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":29,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js","function":"customerDetails","line":5,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\validators\\/customerDetails.validator.js","function":"customerDetailsValidator","line":19,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false}]}
+info: ::1 - - [10/Aug/2022:19:16:20 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:17:39 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:19:18 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:21:23 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:27:42 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:30:58 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: authID is not defined
+ReferenceError: authID is not defined
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\services\/customerDetails.service.js:6:50)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.customerDetails (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\services\/customerDetails.service.js:5:29)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\controllers\/customer_details.controller.js:9:33)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) {"date":"Thu Aug 11 2022 01:00:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":968568},"process":{"argv":["node","C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\index.js"],"cwd":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19561512,"external":21169549,"heapTotal":83517440,"heapUsed":56228288,"rss":120344576},"pid":19268,"uid":null,"version":"v16.16.0"},"stack":"ReferenceError: authID is not defined\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js:6:50)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12)\n    at Object.customerDetails (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js:5:29)\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js:9:33)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)","trace":[{"column":50,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js","function":"_callee$","line":6,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":29,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js","function":"Object.customerDetails","line":5,"method":"customerDetails","native":false},{"column":33,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js","function":"_callee$","line":9,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false}]}
+info: ::1 - - [10/Aug/2022:19:31:34 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:33:18 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:35:10 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:36:15 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 392 "-" "PostmanRuntime/7.29.2"
+

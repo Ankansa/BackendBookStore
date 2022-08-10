@@ -516,3 +516,134 @@ error:
       method - PUT 
       IP - ::1
      {"timestamp":"2022-08-09T19:41:59.542Z"}
+error: 
+    status - 500 
+    message - ValidationError: "PhoneNumber" must be less than or equal to 10 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:00:30.560Z"}
+error: 
+    status - 500 
+    message - ValidationError: "PhoneNumber" must be less than or equal to 10 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:01:15.207Z"}
+error: 
+    status - 500 
+    message - ValidationError: "PhoneNumber" must be less than or equal to 10 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:01:27.334Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.number(...).length is not a function
+    at customerDetailsValidator (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\validators\/customerDetails.validator.js:6:35)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:05:15.570Z"}
+error: 
+    status - 500 
+    message - ValidationError: "PhoneNumber" must be less than or equal to 10 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:07:17.821Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.number(...).phoneNumber is not a function
+    at customerDetailsValidator (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\validators\/customerDetails.validator.js:6:35)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:09:34.072Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Address" failed custom validation because Cannot read properties of undefined (reading 'presence') 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:11:35.141Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Address" failed custom validation because Cannot read properties of undefined (reading 'presence') 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:13:44.240Z"}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\controllers\/customer_details.controller.js:14:16)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at customerDetails (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\controllers\/customer_details.controller.js:5:29)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at customerDetailsValidator (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\validators\/customerDetails.validator.js:19:9)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3) {"date":"Thu Aug 11 2022 00:45:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":967614},"process":{"argv":["node","C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\index.js"],"cwd":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18448050,"external":32233791,"heapTotal":82337792,"heapUsed":50969288,"rss":117702656},"pid":8516,"uid":null,"version":"v16.16.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js:14:16)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n    at customerDetails (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js:5:29)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at customerDetailsValidator (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\validators\\/customerDetails.validator.js:19:9)\n    at Layer.handle [as handle_request] (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js:114:3)","timestamp":"2022-08-10T19:15:03.645Z","trace":[{"column":16,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js","function":"_callee$","line":14,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":29,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js","function":"customerDetails","line":5,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\validators\\/customerDetails.validator.js","function":"customerDetailsValidator","line":19,"method":null,"native":false},{"column":5,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is not allowed 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-10T19:19:18.100Z"}
+error: uncaughtException: authID is not defined
+ReferenceError: authID is not defined
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\services\/customerDetails.service.js:6:50)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.customerDetails (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\services\/customerDetails.service.js:5:29)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\controllers\/customer_details.controller.js:9:33)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) {"date":"Thu Aug 11 2022 01:00:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":968568},"process":{"argv":["node","C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\index.js"],"cwd":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19545534,"external":21153531,"heapTotal":83517440,"heapUsed":56065392,"rss":119726080},"pid":19268,"uid":null,"version":"v16.16.0"},"stack":"ReferenceError: authID is not defined\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js:6:50)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12)\n    at Object.customerDetails (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js:5:29)\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js:9:33)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)","timestamp":"2022-08-10T19:30:58.141Z","trace":[{"column":50,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js","function":"_callee$","line":6,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":29,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js","function":"Object.customerDetails","line":5,"method":"customerDetails","native":false},{"column":33,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js","function":"_callee$","line":9,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false}]}

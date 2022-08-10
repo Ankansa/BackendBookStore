@@ -46,7 +46,7 @@ export const cart = async (req, res, next) => {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: "Book deleted sucessfully"
+        message: "Book removed sucessfully"
       });
     } catch (error) {
       res.status(HttpStatus.BAD_REQUEST).json({
@@ -64,7 +64,7 @@ export const cart = async (req, res, next) => {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: "Book deleted sucessfully"
+        message: "Cart Purchased value changed "
       });
     } catch (error) {
       res.status(HttpStatus.BAD_REQUEST).json({
@@ -82,7 +82,7 @@ export const cart = async (req, res, next) => {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: "Book deleted sucessfully"
+        message: "Cart Purchased value changed "
       });
     } catch (error) {
       res.status(HttpStatus.BAD_REQUEST).json({
