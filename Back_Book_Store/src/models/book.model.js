@@ -3,7 +3,7 @@ import { Schema, model } from 'mongoose';
 
 //This schema is difined for notes.
 
-const noteSchema = new Schema(
+const bookSchema = new Schema(
     {
         bookName: {
             type: String,
@@ -39,4 +39,4 @@ const noteSchema = new Schema(
         timestamps: true
     }
 );
-export default model('Book', noteSchema);
+export default model('Book', bookSchema);

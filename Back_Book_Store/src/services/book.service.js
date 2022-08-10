@@ -1,13 +1,13 @@
 import User from "../models/user.model";
-import Book from '../models/book.model'
+import Book from '../models/book.model';
 
 
 
 //get all books #####################
 export const allBook = async (body) => {
-  const usercheck = await User.find({ Email: body.Email })
+  const usercheck = await User.findOne({ Email: body.Email })
   if (usercheck) {
-    const allbook = await Book.find()
+    const allbook = await Book.find ()
     return allbook
   } else {
     throw new Error("Not authorised user, login first")
@@ -15,10 +15,10 @@ export const allBook = async (body) => {
 };
 
 //get book by id #####################
-export const singleBook = async (body, b_id) => {
-  const usercheck = await User.find({ Email: body.Email })
+export const singleBook = async (authEmail, params_book_id) => {
+  const usercheck = await User.findOne({ Email: authEmail })
   if (usercheck) {
-    const book = await Book.find({ _id: b_id })
+    const book = await Book.findOne({ _id: params_book_id })
     if (book) {
       return book
     } else {
@@ -28,3 +28,4 @@ export const singleBook = async (body, b_id) => {
     throw new Error("Not authorised user, login first")
   }
 };
+

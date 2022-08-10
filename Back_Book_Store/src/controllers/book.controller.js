@@ -1,11 +1,11 @@
 import HttpStatus from 'http-status-codes';
-import * as Noteservice from '../services/book.service'
+import * as Bookservice from '../services/book.service'
 
 //get all books #####################
 
 export const allBooks = async (req, res, next) => {
   try {
-    const data = await Noteservice.allBook(req.body);
+    const data = await Bookservice.allBook(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -23,7 +23,7 @@ export const allBooks = async (req, res, next) => {
 
 export const singleBook = async (req, res, next) => {
   try {
-    const data = await Noteservice.singleBook(req.body, req.params._id);
+    const data = await Noteservice.singleBook(req.body.Email, req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
