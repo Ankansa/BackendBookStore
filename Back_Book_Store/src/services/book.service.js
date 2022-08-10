@@ -1,16 +1,30 @@
+import User from "../models/user.model";
+import Book from '../models/book.model'
 
 
 
-//create new user #####################
+//get all books #####################
 export const allBook = async (body) => {
-    const check = await User.findOne({ Email: body.Email })
-    if (check) {
-      throw new Error("Email Id Already exist")
+  const usercheck = await User.find({ Email: body.Email })
+  if (usercheck) {
+    const allbook = await Book.find()
+    return allbook
+  } else {
+    throw new Error("Not authorised user, login first")
+  }
+};
+
+//get book by id #####################
+export const singleBook = async (body, b_id) => {
+  const usercheck = await User.find({ Email: body.Email })
+  if (usercheck) {
+    const book = await Book.find({ _id: b_id })
+    if (book) {
+      return book
     } else {
-      const salt = 10;
-      const hassedPassword = await bcrypt.hash(body.Password, salt)
-      body.Password = hassedPassword;
-      const data = await User.create(body);
-      return data;
+      throw new Error("Book Not Found")
     }
-  };
+  } else {
+    throw new Error("Not authorised user, login first")
+  }
+};
