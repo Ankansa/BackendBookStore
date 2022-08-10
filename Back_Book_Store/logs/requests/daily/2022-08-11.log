@@ -1,0 +1,40 @@
+info: ::1 - - [10/Aug/2022:18:53:47 +0000] "PUT /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:18:54:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:00:30 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:01:15 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:01:27 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:05:15 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 84 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:07:17 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:09:34 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:11:35 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 136 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:13:44 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 136 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:16:20 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:17:39 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:19:18 +0000] "POST /api/v1/customer/ HTTP/1.1" 500 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:21:23 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:27:42 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:30:58 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:31:34 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:33:18 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:35:10 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Aug/2022:19:36:15 +0000] "POST /api/v1/customer/ HTTP/1.1" 201 392 "-" "PostmanRuntime/7.29.2"
+

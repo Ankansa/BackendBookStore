@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
 
-const cartSchema = new Schema(
+const wishlistSchema = new Schema(
     {
         userId: {
           type: String
@@ -31,6 +31,6 @@ const cartSchema = new Schema(
 )
 
 
-export default model('Wishlist', cartSchema);
+export default model('Wishlist', wishlistSchema);
 
 
