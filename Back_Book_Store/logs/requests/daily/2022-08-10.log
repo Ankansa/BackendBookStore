@@ -30,3 +30,25 @@ info: ::1 - - [09/Aug/2022:18:56:40 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [09/Aug/2022:18:56:50 +0000] "PUT /api/v1/cart/ptrue HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [09/Aug/2022:19:00:15 +0000] "PUT /api/v1/cart/purchased/true HTTP/1.1" 200 994 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:00:31 +0000] "PUT /api/v1/cart/ppurchased/false HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:00:39 +0000] "PUT /api/v1/cart/purchased/false HTTP/1.1" 200 995 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:29:11 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:31:54 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 201 287 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:32:14 +0000] "POST /api/v1/wishlist/6215888305253301a4fda5cd HTTP/1.1" 201 435 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:32:38 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 201 583 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:41:59 +0000] "PUT /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:42:24 +0000] "PUT /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 200 444 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:55:00 +0000] "GET /api/v1/wishlist HTTP/1.1" 400 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Aug/2022:19:55:55 +0000] "GET /api/v1/wishlist HTTP/1.1" 200 442 "-" "PostmanRuntime/7.29.2"
+
