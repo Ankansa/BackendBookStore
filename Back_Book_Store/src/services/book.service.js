@@ -5,13 +5,9 @@ import Book from '../models/book.model';
 
 //get all books #####################
 export const allBook = async (body) => {
-  const usercheck = await User.findOne({ Email: body.Email })
-  if (usercheck) {
+  
     const allbook = await Book.find ()
     return allbook
-  } else {
-    throw new Error("Not authorised user, login first")
-  }
 };
 
 //get book by id #####################

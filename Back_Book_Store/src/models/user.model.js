@@ -1,13 +1,8 @@
-import { any } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 const userSchema = new Schema(
   {
-    FirstName: {
-      type: String,
-      require: true
-    },
-    SecondName: {
+    FullName: {
       type: String,
       require: true
     },
@@ -15,10 +10,14 @@ const userSchema = new Schema(
       type: String,
       require: true
     },
-    Password: {
+    password: {
       type: String,
       require: true
-    }
+    },
+    mobileNumber: {
+      type: String,
+      require: true
+    },
 
   },
   {

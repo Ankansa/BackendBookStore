@@ -1,0 +1,11 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:41:51.277Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:41:54.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T11:51:49.759Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T11:51:52.395Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T12:58:09.361Z"}

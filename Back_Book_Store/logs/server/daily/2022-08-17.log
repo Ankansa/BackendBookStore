@@ -1,0 +1,31 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T19:40:38.248Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T19:40:40.876Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-16T21:17:40.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T02:40:59.547Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T02:41:02.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T12:48:17.428Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T12:48:20.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T18:10:59.154Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T18:11:01.806Z"}

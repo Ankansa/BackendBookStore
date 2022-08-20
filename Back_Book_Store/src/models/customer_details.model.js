@@ -14,14 +14,6 @@ const CustomerSchema = new Schema(
             type: Number,
             require: true
         },
-        Pincode: {
-            type: Number,
-            require: true
-        },
-        Locality: {
-            type: String,
-            require: true
-        },
         Address: {
             type: String,
             require: true
@@ -30,13 +22,13 @@ const CustomerSchema = new Schema(
             type: String,
             require: true
         },
-        Landmark: {
+        State: {
             type: String,
             require: true
         },
         Type: {
             type: String,
-            require: true
+        
         }
 
     },
