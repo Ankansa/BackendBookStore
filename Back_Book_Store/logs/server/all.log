@@ -1999,3 +1999,517 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T1
 info: Connected to the database. {"timestamp":"2022-08-10T19:37:47.296Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T19:38:40.913Z"}
 info: Connected to the database. {"timestamp":"2022-08-10T19:38:43.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T19:38:57.982Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T19:39:00.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:22:53.314Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:22:55.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:23:11.770Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:23:14.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:28:14.068Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:28:16.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:28:53.776Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:28:56.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:29:19.799Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:29:22.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:30:32.953Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:30:35.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:32:45.448Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:32:48.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:33:36.633Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:33:39.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:34:11.270Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:34:13.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:36:29.784Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:36:32.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:36:57.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:37:04.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:37:11.770Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:37:14.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:37:35.055Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:37:37.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:37:44.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:37:56.101Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:37:58.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:38:11.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-10T20:38:19.177Z"}
+info: Connected to the database. {"timestamp":"2022-08-10T20:38:21.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-11T02:37:58.499Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T02:38:01.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-11T02:41:19.637Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T02:41:22.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-13T19:56:07.489Z"}
+info: Connected to the database. {"timestamp":"2022-08-13T19:56:10.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:05:54.029Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:05:56.989Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:08:43.191Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:08:52.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:12:47.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:12:56.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:13:04.389Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:13:06.841Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:14:00.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:14:15.213Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:14:17.783Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mobileNumber" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:14:37.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:15:46.286Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:15:49.643Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:16:03.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:16:17.214Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:16:19.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:16:54.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:17:53.145Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:17:55.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:20:57.033Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:20:59.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:21:44.342Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:21:46.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:22:05.834Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:22:08.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:23:32.031Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:23:34.593Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token A in JSON at position 107
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:28:45.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:30:20.302Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:30:22.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:30:34.336Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:30:36.868Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:51:26.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:57:24.826Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:57:28.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:58:00.971Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:58:03.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T04:58:46.740Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T04:58:50.512Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T05:00:16.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T05:00:59.039Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T05:01:01.894Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T09:53:38.535Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T09:53:41.213Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FullName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T10:28:04.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FullName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T10:32:51.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-16T19:40:38.248Z"}
+info: Connected to the database. {"timestamp":"2022-08-16T19:40:40.876Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-16T21:17:40.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T02:40:59.547Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T02:41:02.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T12:48:17.428Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T12:48:20.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-17T18:10:59.154Z"}
+info: Connected to the database. {"timestamp":"2022-08-17T18:11:01.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T02:41:51.277Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T02:41:54.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T11:51:49.759Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T11:51:52.395Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T12:58:09.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T18:43:41.353Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T18:43:44.145Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:44:56.703Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:50:05.797Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T18:52:07.115Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T18:53:05.843Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:54:10.579Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:56:25.475Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:57:50.213Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:58:27.029Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:05:13.627Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:05:29.914Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:05:39.278Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:06:34.788Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:06:52.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T19:08:12.988Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T19:08:15.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-18T19:09:06.657Z"}
+info: Connected to the database. {"timestamp":"2022-08-18T19:09:09.352Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart/621589b605253301a4fda5d8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:09:36.815Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/wishlist/621589b605253301a4fda5d8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:18:03.201Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/wishlist/621589b605253301a4fda5d8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:20:07.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T02:39:48.860Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T02:39:51.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:07:25.719Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:07:28.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:46:26.081Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:46:28.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:46:47.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:46:56.368Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:46:59.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T08:47:39.901Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T08:47:42.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:00:14.474Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:00:17.414Z"}
+error: 
+    status - 500 
+    message - ValidationError: "City" is required 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T12:04:21.771Z"}
+error: 
+    status - 500 
+    message - ValidationError: "City" is required 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T12:04:36.017Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Type" is required 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T12:08:03.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:08:56.232Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:08:58.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T12:19:59.960Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T12:20:02.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T18:21:33.274Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T18:21:36.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-20T07:14:50.120Z"}
+info: Connected to the database. {"timestamp":"2022-08-20T07:14:54.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-20T14:23:14.051Z"}
+info: Connected to the database. {"timestamp":"2022-08-20T14:23:16.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-20T14:23:51.224Z"}
+info: Connected to the database. {"timestamp":"2022-08-20T14:23:53.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-20T14:24:12.388Z"}
+info: Connected to the database. {"timestamp":"2022-08-20T14:24:14.936Z"}

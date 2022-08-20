@@ -647,3 +647,393 @@ ReferenceError: authID is not defined
     at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
     at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
     at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) {"date":"Thu Aug 11 2022 01:00:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":968568},"process":{"argv":["node","C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\index.js"],"cwd":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19545534,"external":21153531,"heapTotal":83517440,"heapUsed":56065392,"rss":119726080},"pid":19268,"uid":null,"version":"v16.16.0"},"stack":"ReferenceError: authID is not defined\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js:6:50)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12)\n    at Object.customerDetails (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js:5:29)\n    at _callee$ (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js:9:33)\n    at tryCatch (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)","timestamp":"2022-08-10T19:30:58.141Z","trace":[{"column":50,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js","function":"_callee$","line":6,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":7,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":21,"method":null,"native":false},{"column":29,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\services\\/customerDetails.service.js","function":"Object.customerDetails","line":5,"method":"customerDetails","native":false},{"column":33,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\src\\controllers\\/customer_details.controller.js","function":"_callee$","line":9,"method":null,"native":false},{"column":17,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\ankan\\Backend_Book_Store\\Back_Book_Store\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:08:43.191Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:08:52.851Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mobileNumber" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:14:37.579Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token A in JSON at position 107
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:28:45.118Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T04:51:26.973Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T05:00:16.128Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FullName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T10:28:04.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FullName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-16T10:32:51.023Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-16T21:17:40.490Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T12:58:09.361Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:44:56.703Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:50:05.797Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T18:52:07.115Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T18:53:05.843Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:54:10.579Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:56:25.475Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:57:50.213Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/621589b605253301a4fda5d8 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-18T18:58:27.029Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:05:13.627Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:05:29.914Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:05:39.278Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:06:34.788Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/book 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:06:52.719Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart/621589b605253301a4fda5d8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:09:36.815Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/wishlist/621589b605253301a4fda5d8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:18:03.201Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\Backend_Book_Store\Back_Book_Store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/wishlist/621589b605253301a4fda5d8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-18T19:20:07.045Z"}
+error: 
+    status - 500 
+    message - ValidationError: "City" is required 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T12:04:21.771Z"}
+error: 
+    status - 500 
+    message - ValidationError: "City" is required 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T12:04:36.017Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Type" is required 
+    url - /api/v1/customer/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-19T12:08:03.202Z"}
