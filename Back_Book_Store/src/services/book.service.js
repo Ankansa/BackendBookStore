@@ -4,7 +4,7 @@ import Book from '../models/book.model';
 
 
 //get all books #####################
-export const allBook = async (body) => {
+export const allBook = async () => {
   
     const allbook = await Book.find ()
     return allbook
