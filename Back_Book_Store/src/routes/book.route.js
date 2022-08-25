@@ -8,7 +8,7 @@ const router = express.Router();
 
 //get all books ##############
 
-router.get('',bookcontroller.allBooks);
+router.get('',userAuth,bookcontroller.allBooks);
 
 //get book by id ##############
 

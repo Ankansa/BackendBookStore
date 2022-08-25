@@ -1,7 +1,7 @@
 import { Schema, model } from 'mongoose';
 
 
-//This schema is difined for notes.
+//This schema is difined for books.
 
 const bookSchema = new Schema(
     {

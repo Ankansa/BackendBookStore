@@ -2,7 +2,6 @@ import Book from '../models/book.model';
 import Cart from '../models/cart.model';
 
 
-
 //add book to cart by id ##############
 
 export const cart = async (authEmail, params_book_id) => {
@@ -118,6 +117,7 @@ export const removeBook = async (authEmail, params_book_id) => {
 export const purchasedValueTrue= async(authEmail)=>{
   const value= Cart.findOneAndUpdate({userId:authEmail},{isPurchased:true},{new:true})
   if(value){
+    console.log("Is  purchasedValueTrue is called from service")
     return value
   }else{
     throw new Error("User don't have any cart")
@@ -134,5 +134,4 @@ export const purchasedValueFalse= async(authEmail)=>{
   }else{
     throw new Error("User don't have any cart")
   }
-
 }
